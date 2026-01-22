@@ -6,7 +6,7 @@ import { Skills } from './components/Skills';
 import { ExperienceSection } from './components/Experience';
 import { EducationSection } from './components/Education';
 import { CertificationsSection } from './components/Certifications';
-import { Footer } from './components/Footer';
+
 
 const App: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -45,7 +45,7 @@ const App: React.FC = () => {
         </section>
       </main>
 
-      <Footer />
+  
     </div>
   );
 };
